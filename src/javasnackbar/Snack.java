@@ -61,6 +61,10 @@ public class Snack {
         this.quantity -= purchaseCount;
     }
 
+    public double getTotalCost(int quantity){
+        return this.cost * quantity;
+    }
+    
     @Override
     public String toString(){
         return "Testing";
