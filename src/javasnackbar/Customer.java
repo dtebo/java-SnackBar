@@ -35,6 +35,10 @@ public class Customer {
     public void addCash(double amt){
         this.cashOnHand += amt;
     }
+
+    public void buySnacks(double totalCost){
+        this.cashOnHand -= totalCost;
+    }
     
     @Override
     public String toString(){
