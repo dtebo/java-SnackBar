@@ -18,19 +18,37 @@ public class SnackBar{
         Customer c1 = new Customer("Jane", 45.25);
         Customer c2 = new Customer("Bob", 33.14);
 
-        c1.buySnacks(3 * soda.getCost());
+        c1.buySnacks(soda.getTotalCost(3));
 
         System.out.println("Jane cash on hand " + c1.getCashOnHand());
         System.out.println("Quantity of Soda " + soda.getQuantity());
 
-        c1.buySnacks(1 * pretzels.getCost());
+        c1.buySnacks(pretzels.getTotalCost(1));
 
         System.out.println("Jane cash on hand " + c1.getCashOnHand());
         System.out.println("Quantity of Pretzel " + pretzels.getQuantity());
 
-        c2.buySnacks(2 * soda.getCost());
+        c2.buySnacks(soda.getTotalCost(2));
 
         System.out.println("Bob cash on hand " + c2.getCashOnHand());
-        
+        System.out.println("Quantity of Soda " + soda.getQuantity());
+
+        c1.addCash(10.00);
+
+        System.out.println("Jane cash on hand " + c1.getCashOnHand());
+
+        c1.buySnacks(cBar.getTotalCost(1));
+
+        System.out.println("Jane cash on hand " + c1.getCashOnHand());
+        System.out.println("Quantity of Chocolate Bar " + cBar.getQuantity());
+
+        pretzels.addSnacks(12);
+
+        System.out.println("Quantity of Pretzel " + pretzels.getQuantity());
+
+        c2.buySnacks(pretzels.getTotalCost(3));
+
+        System.out.println("Bob cash on hand " + c2.getCashOnHand());
+        System.out.println("Quantity of Pretzel " + pretzels.getQuantity());
     }
 }
