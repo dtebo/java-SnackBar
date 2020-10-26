@@ -52,8 +52,13 @@ public class SnackBar{
 
         c2.buySnacks(pretzels.getTotalCost(3));
         pretzels.buySnacks(3);
-        
+
         System.out.println("Bob cash on hand " + c2.getCashOnHand());
         System.out.println("Quantity of Pretzel " + pretzels.getQuantity());
+
+        System.out.println("Snack: " + chips.getName() + "\n" +
+            "Vending Machine: " + v1.getName() + "\n" +
+            "Quantity: " + chips.getQuantity() + "\n" +
+            "Total Cost: " + chips.getTotalCost(36));
     }
 }
