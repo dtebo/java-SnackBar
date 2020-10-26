@@ -149,7 +149,7 @@ Total Cost: $55.00
 
 * [x] Please fork and clone this repository. This repository does not have a starter project, so create one inside of the cloned repository folder. Regularly commit and push your code as appropriate.
 * [x] When you are done, create a Pull Request (PR)
-* [ ] To submit the assignment, paste the URL of your branch into the assignment module in Canvas.
+* [x] To submit the assignment, paste the URL of your branch into the assignment module in Canvas.
 
 ### Task 2: MVP
 
@@ -157,58 +157,58 @@ Total Cost: $55.00
 
 Create the classes mentioned above and then instantiate these objects from those classes
 
-* [ ] Snack
-* [ ] VendingMachine
-* [ ] Customer
+* [x] Snack
+* [x] VendingMachine
+* [x] Customer
 
-* [ ] Instantiate 2 customers
-  * [ ] Jane with $45.25
-  * [ ] Bob with $33.14
+* [x] Instantiate 2 customers
+  * [x] Jane with $45.25
+  * [x] Bob with $33.14
 
-* [ ] Instantiate 3 Vending Machines
-  * [ ] Food
-  * [ ] Drink
-  * [ ] Office
+* [x] Instantiate 3 Vending Machines
+  * [x] Food
+  * [x] Drink
+  * [x] Office
 
-* [ ] Instantiate 5 snacks
-  * [ ] In Vending Machine Food
-    * [ ] 36 Chips at $1.75
-    * [ ] 36 Chocolate Bar at $1.00
-    * [ ] 30 Pretzel at $2.00
-  * [ ] In Vending Machine Drink
-    * [ ] 24 Soda at $2.50
-    * [ ] 20 Water at $2.75
+* [x] Instantiate 5 snacks
+  * [x] In Vending Machine Food
+    * [x] 36 Chips at $1.75
+    * [x] 36 Chocolate Bar at $1.00
+    * [x] 30 Pretzel at $2.00
+  * [x] In Vending Machine Drink
+    * [x] 24 Soda at $2.50
+    * [x] 20 Water at $2.75
 
 ### Processing
 
-* [ ] Customer 1 (Jane) buys 3 of snack 4 (Soda).
-  * [ ] Print Customer 1 (Jane) Cash on hand.
-  * [ ] Print quantity of snack 4 (Soda).
-* [ ] Customer 1 (Jane) buys 1 of snack 3 (Pretzel).
-  * [ ] Print Customer 1 (Jane) Cash on hand.
-  * [ ] Print quantity of snack 3 (Pretzel).
-* [ ] Customer 2 (Bob) buys 2 of snack 4 (Soda).
-  * [ ] Print Customer 2 (Bob) Cash on Hand.
-  * [ ] Print quantity of snack 4 (Soda).
-* [ ] Customer 1 (Jane) finds $10.
-  * [ ] Print Customer 1 (Jane) Cash on Hand.
-* [ ] Customer 1 (Jane) buys 1 of snack 2 (Chocolate Bar).
-  * [ ] Print Customer 1 (Jane) Cash on Hand.
-  * [ ] Print quantity of snack 2 (Chocolate Bar).
-* [ ] Add 12 more items to snack 3 (Pretzel).
-  * [ ] Print quantity of snack 3 (Pretzel).
-* [ ] Customer 2 (Bob) buys 3 of snack 3 (Pretzel).
-  * [ ] Print Customer 2 (Bob) Cash on hand.
-  * [ ] Print quantity of snack 3 (Pretzel).
+* [x] Customer 1 (Jane) buys 3 of snack 4 (Soda).
+  * [x] Print Customer 1 (Jane) Cash on hand.
+  * [x] Print quantity of snack 4 (Soda).
+* [x] Customer 1 (Jane) buys 1 of snack 3 (Pretzel).
+  * [x] Print Customer 1 (Jane) Cash on hand.
+  * [x] Print quantity of snack 3 (Pretzel).
+* [x] Customer 2 (Bob) buys 2 of snack 4 (Soda).
+  * [x] Print Customer 2 (Bob) Cash on Hand.
+  * [x] Print quantity of snack 4 (Soda).
+* [x] Customer 1 (Jane) finds $10.
+  * [x] Print Customer 1 (Jane) Cash on Hand.
+* [x] Customer 1 (Jane) buys 1 of snack 2 (Chocolate Bar).
+  * [x] Print Customer 1 (Jane) Cash on Hand.
+  * [x] Print quantity of snack 2 (Chocolate Bar).
+* [x] Add 12 more items to snack 3 (Pretzel).
+  * [x] Print quantity of snack 3 (Pretzel).
+* [x] Customer 2 (Bob) buys 3 of snack 3 (Pretzel).
+  * [x] Print Customer 2 (Bob) Cash on hand.
+  * [x] Print quantity of snack 3 (Pretzel).
   
 ### Task 3: Stretch Goals
 
-* [ ] Display each snack with
-  * [ ] Name
-  * [ ] Vending Machine Name
-  * [ ] Quantity on hand
-  * [ ] Total cost of all of the quantities of this snack on hand
-* [ ] Format all dollar amount like $1,234.56
-  * [ ] Starts with a dollar sign
-  * [ ] comma separating group of 3 numbers
-  * [ ] rounded to the nearest cents, hundredths place
+* [x] Display each snack with
+  * [x] Name
+  * [x] Vending Machine Name
+  * [x] Quantity on hand
+  * [x] Total cost of all of the quantities of this snack on hand
+* [x] Format all dollar amount like $1,234.56
+  * [x] Starts with a dollar sign
+  * [x] comma separating group of 3 numbers
+  * [x] rounded to the nearest cents, hundredths place
