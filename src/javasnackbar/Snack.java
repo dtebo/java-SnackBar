@@ -13,6 +13,7 @@ public class Snack {
         this.id = maxId;
         this.name = name;
         this.cost = cost;
+        this.quantity = quantity;
         this.vendingMachineId = vendingMachineId;
     }
 
