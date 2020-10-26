@@ -32,6 +32,10 @@ public class Customer {
         this.cashOnHand = cashOnHand;
     }
 
+    public void addCash(double amt){
+        this.cashOnHand += amt;
+    }
+    
     @Override
     public String toString(){
         return "Customer\n\n" +
