@@ -19,16 +19,19 @@ public class SnackBar{
         Customer c2 = new Customer("Bob", 33.14);
 
         c1.buySnacks(soda.getTotalCost(3));
+        soda.buySnacks(3);
 
         System.out.println("Jane cash on hand " + c1.getCashOnHand());
         System.out.println("Quantity of Soda " + soda.getQuantity());
 
         c1.buySnacks(pretzels.getTotalCost(1));
+        pretzels.buySnacks(1);
 
         System.out.println("Jane cash on hand " + c1.getCashOnHand());
         System.out.println("Quantity of Pretzel " + pretzels.getQuantity());
 
         c2.buySnacks(soda.getTotalCost(2));
+        soda.buySnacks(2);
 
         System.out.println("Bob cash on hand " + c2.getCashOnHand());
         System.out.println("Quantity of Soda " + soda.getQuantity());
@@ -38,6 +41,7 @@ public class SnackBar{
         System.out.println("Jane cash on hand " + c1.getCashOnHand());
 
         c1.buySnacks(cBar.getTotalCost(1));
+        cBar.buySnacks(1);
 
         System.out.println("Jane cash on hand " + c1.getCashOnHand());
         System.out.println("Quantity of Chocolate Bar " + cBar.getQuantity());
@@ -47,7 +51,8 @@ public class SnackBar{
         System.out.println("Quantity of Pretzel " + pretzels.getQuantity());
 
         c2.buySnacks(pretzels.getTotalCost(3));
-
+        pretzels.buySnacks(3);
+        
         System.out.println("Bob cash on hand " + c2.getCashOnHand());
         System.out.println("Quantity of Pretzel " + pretzels.getQuantity());
     }
