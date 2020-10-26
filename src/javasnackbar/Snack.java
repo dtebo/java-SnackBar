@@ -57,6 +57,10 @@ public class Snack {
         this.quantity += snackCount;
     }
 
+    public void buySnacks(int purchaseCount){
+        this.quantity -= purchaseCount;
+    }
+
     @Override
     public String toString(){
         return "Testing";
