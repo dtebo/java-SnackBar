@@ -21,29 +21,29 @@ public class SnackBar{
         c1.buySnacks(soda.getTotalCost(3));
         soda.buySnacks(3);
 
-        System.out.println("Jane cash on hand " + c1.getCashOnHand());
+        System.out.println("Jane cash on hand " + c1.getFormattedCashOnHand());
         System.out.println("Quantity of Soda " + soda.getQuantity());
 
         c1.buySnacks(pretzels.getTotalCost(1));
         pretzels.buySnacks(1);
 
-        System.out.println("Jane cash on hand " + c1.getCashOnHand());
+        System.out.println("Jane cash on hand " + c1.getFormattedCashOnHand());
         System.out.println("Quantity of Pretzel " + pretzels.getQuantity());
 
         c2.buySnacks(soda.getTotalCost(2));
         soda.buySnacks(2);
 
-        System.out.println("Bob cash on hand " + c2.getCashOnHand());
+        System.out.println("Bob cash on hand " + c2.getFormattedCashOnHand());
         System.out.println("Quantity of Soda " + soda.getQuantity());
 
         c1.addCash(10.00);
 
-        System.out.println("Jane cash on hand " + c1.getCashOnHand());
+        System.out.println("Jane cash on hand " + c1.getFormattedCashOnHand());
 
         c1.buySnacks(cBar.getTotalCost(1));
         cBar.buySnacks(1);
 
-        System.out.println("Jane cash on hand " + c1.getCashOnHand());
+        System.out.println("Jane cash on hand " + c1.getFormattedCashOnHand());
         System.out.println("Quantity of Chocolate Bar " + cBar.getQuantity());
 
         pretzels.addSnacks(12);
@@ -53,12 +53,32 @@ public class SnackBar{
         c2.buySnacks(pretzels.getTotalCost(3));
         pretzels.buySnacks(3);
 
-        System.out.println("Bob cash on hand " + c2.getCashOnHand());
+        System.out.println("Bob cash on hand " + c2.getFormattedCashOnHand());
         System.out.println("Quantity of Pretzel " + pretzels.getQuantity());
 
-        System.out.println("Snack: " + chips.getName() + "\n" +
+        System.out.println("\nSnack: " + chips.getName() + "\n" +
             "Vending Machine: " + v1.getName() + "\n" +
             "Quantity: " + chips.getQuantity() + "\n" +
-            "Total Cost: " + chips.getTotalCost(36));
+            "Total Cost: " + chips.getFormattedTotalCost(36));
+
+        System.out.println("\nSnack: " + cBar.getName() + "\n" +
+            "Vending Machine: " + v1.getName() + "\n" +
+            "Quantity: " + cBar.getQuantity() + "\n" +
+            "Total Cost: " + cBar.getFormattedTotalCost(35));
+
+        System.out.println("\nSnack: " + pretzels.getName() + "\n" +
+            "Vending Machine: " + v1.getName() + "\n" +
+            "Quantity: " + pretzels.getQuantity() + "\n" +
+            "Total Cost: " + pretzels.getFormattedTotalCost(38));
+
+        System.out.println("\nSnack: " + soda.getName() + "\n" +
+            "Vending Machine: " + v2.getName() + "\n" +
+            "Quantity: " + soda.getQuantity() + "\n" +
+            "Total Cost: " + soda.getFormattedTotalCost(19));
+
+        System.out.println("\nSnack: " + water.getName() + "\n" +
+            "Vending Machine: " + v2.getName() + "\n" +
+            "Quantity: " + water.getQuantity() + "\n" +
+            "Total Cost: " + water.getFormattedTotalCost(20));
     }
 }

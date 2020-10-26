@@ -1,10 +1,13 @@
 package javasnackbar;
 
+import java.text.DecimalFormat;
+
 public class Customer {
     public static int maxId = 0;
     private int id;
     private String name;
     private double cashOnHand;
+    private static DecimalFormat df = new DecimalFormat("$#,##0.00");
 
     public Customer(String name, double cashOnHand){
         maxId++;
@@ -22,6 +25,10 @@ public class Customer {
 
     public double getCashOnHand(){
         return this.cashOnHand;
+    }
+
+    public String getFormattedCashOnHand(){
+        return df.format(this.cashOnHand);
     }
 
     public void setName(String name){

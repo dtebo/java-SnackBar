@@ -1,5 +1,7 @@
 package javasnackbar;
 
+import java.text.DecimalFormat;
+
 public class Snack {
     public static int maxId = 0;
     private int id;
@@ -7,6 +9,7 @@ public class Snack {
     private int quantity;
     private double cost;
     private int vendingMachineId;
+    private static DecimalFormat df = new DecimalFormat("$#,##0.00");
 
     public Snack(String name, int quantity, double cost, int vendingMachineId){
         maxId++;
@@ -66,6 +69,12 @@ public class Snack {
         return this.cost * quantity;
     }
     
+    public String getFormattedTotalCost(int quantity){
+        double total = this.cost * quantity;
+
+        return df.format(total);
+    }
+
     @Override
     public String toString(){
         return "Testing";
