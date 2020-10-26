@@ -8,6 +8,14 @@ public class Snack {
     private double cost;
     private int vendingMachineId;
 
+    public Snack(String name, int quantity, double cost, int vendingMachineId){
+        maxId++;
+        this.id = maxId;
+        this.name = name;
+        this.cost = cost;
+        this.vendingMachineId = vendingMachineId;
+    }
+    
     //Getters and Setters
     public int getId(){
         return this.id;
